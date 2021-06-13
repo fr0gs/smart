@@ -4,10 +4,10 @@
     <div class="sm-navbar__top">
         <div class="sm-navbar__top--left">
             {{#is "home, author, tag"}}
-            <span class="sm-navbar__new-tag">New</span>
+            {{!-- <span class="sm-navbar__new-tag">New</span>
                 {{#foreach posts limit="1"}}
                     {{#link href=(url) class="sm-navbar__new-link"}}{{title}}{{/link}}
-                {{/foreach}}
+                {{/foreach}} --}}
             {{else}}
                 {{#post}}
                     {{!-- <span class="sm-navbar__new-tag--text">Share</span> --}}
